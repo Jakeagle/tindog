@@ -1,2 +1,1 @@
-# tindog
-Bootstrap Lesson site
+TinDog Starting Files

@@ -1,0 +1,197 @@
+/**********HTML-Elements**********/
+body{
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+
+p{
+  color: #8f8f8f;
+}
+
+/**********Headings**********/
+
+.Big-Heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  width: 80%;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.pink{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white{
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  font-family: 'ubuntu', sans-serif;
+  padding: 0 18px;
+  font-size: 1.3rem;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.navbar-nav {
+  padding-right: 15rem;
+}
+
+#features{
+
+  position: relative;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  position: relative;
+  z-index: 0;
+  text-align: left;
+}
+
+.Ugly-Chihuahua {
+  width: 310px;
+  z-index: -1;
+  position: absolute;
+  right: 35%;
+  transform: rotate(25deg);
+}
+
+
+
+.section-2-row {
+  margin: 10% 0 10% 0;
+  height: 100%;
+
+}
+.feature-row{
+  height: 100%;
+}
+.Easy-to-use{
+  margin: 5% 0 5% 0;
+  font-size: 1.5rem;
+}
+
+.image {
+  font-size: 4rem;
+  color: #ef8172;
+}
+
+.image:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press{
+  padding-top: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.tnw{
+  width: 8.5%;
+}
+
+
+#pricing{
+  padding: 100px;
+
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+  .Ugly-Chihuahua{
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+#cta{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 8rem;
+}
+
+.cta-title{
+  font-size: 3rem;
+  width: 60%;
+  position: relative;
+  left: 320px;
+}
+
+.button-cta{
+  margin: 5% 1% 5% 1%;
+}
+
+.icons{
+  margin: 0 0.5% 2% 0.5%;
+  font-size: 1.2rem;
+}
